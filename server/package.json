@@ -4,6 +4,6 @@
     "description": "Simple realtime multiplayer Tic-Tac-Toe game. Powered by nodejs, socket.io and easeljs",
     "dependencies": {
         "socket.io": "latest"
-    }
+    },
     "start": "node server.js"
 }
