@@ -5,5 +5,5 @@
     "dependencies": {
         "socket.io": "latest"
     },
-    "start": "node server.js"
+    "start": "node tictactoe.js"
 }
