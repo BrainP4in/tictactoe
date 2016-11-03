@@ -1,6 +1,6 @@
 var http = require('http').Server(function (req, res) {
     res.writeHead(301, {
-        "location": "http://192.168.2.102"
+        "location": "http://brainwi-wi-rest.44fs.preview.openshiftapps.com"
     });
     res.end();
 });
@@ -127,6 +127,6 @@ var leaveTable = function (socket) {
     }
 };
 
-http.listen(3000, function () {
-    console.log('listening on *:3000');
+http.listen(80, function () {
+    console.log('listening on *:80');
 });
